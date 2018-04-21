@@ -9,5 +9,5 @@ for i in range(256):
 	img[:,:,0] = L;
 	img[:,:,1] = A;
 	img[:,:,2] = B;
-	imgrgb = cv2.cvtColor(img,cv2.COLOR_LAB2RGB);
-	cv2.imwrite('labimages/'+str(i)+'.jpg',imgrgb)
+	# imgrgb = cv2.cvtColor(img,cv2.COLOR_LAB2RGB);
+	# cv2.imwrite('labimages/'+str(i)+'.jpg',imgrgb)
