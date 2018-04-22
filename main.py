@@ -3,7 +3,7 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
-input_path  = "/home/hemantk/Documents/colorization/tiny-imagenet-200/train/"
+input_path  = "/home/hemantk/Documents/colorization/Data_zoo/LaMem/lamem/images/"
 Q = 256
 
 def batchReadImages(dir_path):
